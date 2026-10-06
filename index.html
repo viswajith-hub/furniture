@@ -13,8 +13,10 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa+One:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+ 
     <!-- navbar -->
      <nav class="navbar">
         <a class="brand" href="">
@@ -45,7 +47,7 @@
             <button class="herobutton">Shop Now</button>
          </div>
          <!-- image -->
-          <div class="heroimage">
+          <div data-aos="zoom-out-down" class="heroimage">
             <img id="furnitureimage" src="./image/image1.png" alt="No image">
           </div>
       </section>
@@ -116,5 +118,10 @@
      <footer class="footer">
         <p> &copy; designed by luminar technolab, all rights reserved 2026</p>
      </footer>
+     
 </body>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </html>
